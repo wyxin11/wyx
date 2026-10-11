@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="王远欣的个人学术主页。现为山东大学硕士研究生，研究方向为对称密码分析、差分—线性分析与密码分析的几何方法。"
+    />
+    <title>王远欣｜山东大学｜对称密码分析</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-zh="跳到正文" data-en="Skip to content">跳到正文</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="site-title" href="#top">
+          <span data-zh="王远欣" data-en="Yuanxin Wang">王远欣</span>
+          <small>/</small>
+          <span data-zh="个人主页" data-en="Academic Homepage">个人主页</span>
+        </a>
+
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only" data-zh="打开导航" data-en="Open navigation">打开导航</span>
+        </button>
+
+        <nav id="main-nav" class="main-nav" aria-label="主导航">
+          <a href="#about" data-zh="简介" data-en="About">简介</a>
+          <a href="#research" data-zh="研究方向" data-en="Research">研究方向</a>
+          <a href="#work" data-zh="当前工作" data-en="Current Work">当前工作</a>
+          <a href="#contact" data-zh="联系方式" data-en="Contact">联系方式</a>
+        </nav>
+
+        <button class="language-button" type="button" aria-label="Switch to English">
+          <span class="language-current">中</span>
+          <span>/</span>
+          <span class="language-other">EN</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="profile wrapper" id="top" aria-labelledby="profile-name">
+        <aside class="profile-side">
+          <img class="portrait" src="./wang-yuanxin.jpg" alt="王远欣" />
+          <h1 id="profile-name" data-zh="王远欣" data-en="Yuanxin Wang">王远欣</h1>
+          <p data-zh="山东大学硕士研究生" data-en="Master’s Student at Shandong University">山东大学硕士研究生</p>
+          <ul class="profile-meta">
+            <li data-zh="研究方向：对称密码分析" data-en="Research: Symmetric-key Cryptanalysis">研究方向：对称密码分析</li>
+            <li data-zh="所在地：中国山东" data-en="Location: Shandong, China">所在地：中国山东</li>
+          </ul>
+        </aside>
+
+        <article class="profile-main" id="about">
+          <h2 data-zh="个人简介" data-en="About Me">个人简介</h2>
+          <p
+            data-zh="现为山东大学硕士研究生，主要研究方向是对称密码分析。研究聚焦分支函数型伪随机函数，基于几何方法逐轮估计差分—线性相关性，并结合路径自动搜索与分支兼容性分析，针对 Orthros、Gleeok 及 ZIP 系列算法构造区分器并开展密钥恢复攻击。"
+            data-en="I am currently pursuing a master’s degree at Shandong University, specializing in symmetric-key cryptanalysis. My research focuses on branch-function-based pseudorandom functions. I use a geometric approach to estimate differential-linear correlations round by round, together with automated trail search and cross-branch compatibility analysis, to construct distinguishers and develop key-recovery attacks on Orthros, Gleeok, and the ZIP family."
+          >
+            现为山东大学硕士研究生，主要研究方向是对称密码分析。研究聚焦分支函数型伪随机函数，基于几何方法逐轮估计差分—线性相关性，并结合路径自动搜索与分支兼容性分析，针对 Orthros、Gleeok 及 ZIP 系列算法构造区分器并开展密钥恢复攻击。
+          </p>
+          <p
+            data-zh="目前关注如何利用几何表示与基于轮的相关性近似，更准确地评估多轮差分—线性区分器，并将所得区分器进一步扩展为密钥恢复攻击。"
+            data-en="I am particularly interested in using geometric representations and round-based correlation approximations to evaluate multi-round differential-linear distinguishers and extend them into key-recovery attacks."
+          >
+            目前关注如何利用几何表示与基于轮的相关性近似，更准确地评估多轮差分—线性区分器，并将所得区分器进一步扩展为密钥恢复攻击。
+          </p>
+        </article>
+      </section>
+
+      <div class="wrapper content-column">
+        <section class="content-section" id="research" aria-labelledby="research-title">
+          <h2 id="research-title" data-zh="研究方向" data-en="Research Interests">研究方向</h2>
+          <p data-zh="主要研究对称密码算法及分支函数型伪随机函数的安全性，具体包括：" data-en="My research focuses on the security of symmetric-key primitives and branch-function-based pseudorandom functions, including:">
+            主要研究对称密码算法及分支函数型伪随机函数的安全性，具体包括：
+          </p>
+          <ul class="research-list">
+            <li>
+              <strong data-zh="差分—线性密码分析" data-en="Differential–linear cryptanalysis">差分—线性密码分析</strong>
+              <span data-zh="：研究多轮区分器的构造、相关性估计及其在密钥恢复中的应用。" data-en=": construction of multi-round distinguishers, correlation estimation, and applications to key recovery.">：研究多轮区分器的构造、相关性估计及其在密钥恢复中的应用。</span>
+            </li>
+            <li>
+              <strong data-zh="密码分析的几何方法" data-en="Geometric methods in cryptanalysis">密码分析的几何方法</strong>
+              <span data-zh="：利用相关向量的几何表示和基于轮的近似方法，分析差分与线性传播之间的关联。" data-en=": geometric representations of correlation vectors and round-based approximations for studying the interaction between differential and linear propagation.">：利用相关向量的几何表示和基于轮的近似方法，分析差分与线性传播之间的关联。</span>
+            </li>
+            <li>
+              <strong data-zh="自动化分析方法" data-en="Automated analysis">自动化分析方法</strong>
+              <span data-zh="：自动搜索差分与线性路径，并处理多分支结构中的兼容性约束。" data-en=": automated search for differential and linear trails, with compatibility constraints across multiple branches.">：自动搜索差分与线性路径，并处理多分支结构中的兼容性约束。</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="content-section" id="work" aria-labelledby="work-title">
+          <h2 id="work-title" data-zh="当前工作" data-en="Current Work">当前工作</h2>
+          <div class="work-list">
+            <article>
+              <h3>Orthros &amp; Gleeok</h3>
+              <p data-zh="研究多分支伪随机函数中的差分—线性区分器、分支联合约束、弱密钥条件及密钥恢复攻击。" data-en="Differential-linear distinguishers, joint branch constraints, weak-key conditions, and key-recovery attacks for multi-branch pseudorandom functions.">
+                研究多分支伪随机函数中的差分—线性区分器、分支联合约束、弱密钥条件及密钥恢复攻击。
+              </p>
+            </article>
+            <article>
+              <h3>ZIP-AES &amp; ZIP-GIFT</h3>
+              <p data-zh="利用几何方法和基于轮的相关性近似评估 ZIP 构造中的差分—线性区分器，并研究输入侧密钥恢复扩展。" data-en="Evaluation of differential-linear distinguishers in ZIP constructions using geometric methods and round-based correlation approximations, together with input-side key-recovery extensions.">
+                利用几何方法和基于轮的相关性近似评估 ZIP 构造中的差分—线性区分器，并研究输入侧密钥恢复扩展。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="keywords" aria-labelledby="keywords-title">
+          <h2 id="keywords-title" data-zh="关键词" data-en="Keywords">关键词</h2>
+          <p class="keywords">
+            <span data-zh="对称密码分析" data-en="Symmetric-key Cryptanalysis">对称密码分析</span>
+            <span data-zh="差分—线性分析" data-en="Differential–Linear Analysis">差分—线性分析</span>
+            <span data-zh="几何方法" data-en="Geometric Methods">几何方法</span>
+            <span data-zh="伪随机函数" data-en="Pseudorandom Functions">伪随机函数</span>
+            <span data-zh="密钥恢复攻击" data-en="Key-Recovery Attacks">密钥恢复攻击</span>
+          </p>
+        </section>
+
+        <section class="content-section" id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title" data-zh="联系方式" data-en="Contact">联系方式</h2>
+          <ul class="contact-list">
+            <li><strong data-zh="单位：" data-en="Affiliation: ">单位：</strong><span data-zh="山东大学" data-en="Shandong University">山东大学</span></li>
+            <li><strong data-zh="地址：" data-en="Address: ">地址：</strong><span data-zh="中国山东" data-en="Shandong, China">中国山东</span></li>
+            <li><strong data-zh="邮箱：" data-en="Email: ">邮箱：</strong><a href="mailto:wangyxin@mail.sdu.edu.cn">wangyxin@mail.sdu.edu.cn</a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper">
+        <span>© 2026 <span data-zh="王远欣" data-en="Yuanxin Wang">王远欣</span></span>
+        <a href="#top" data-zh="返回顶部" data-en="Back to top">返回顶部</a>
+      </div>
+    </footer>
+  </body>
+</html>
